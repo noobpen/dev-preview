@@ -10,7 +10,7 @@ void readFile(FILE *file, const char *filename, char *text) {
         }
         fclose(file);
     } else {
-        printf("Could not find file!");
+        printf("Could not find file!0\n");
     }
 }
 
